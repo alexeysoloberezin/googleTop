@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    line-height: 1.625;
+    margin-bottom: 17px;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+body, html {
+    width: 100%;
+    max-width: 100vw;
+    background: #fff;
+    color: #333;
+    font-size: 16px;
+    overflow-x: hidden;
+    font-family: "Inter", sans-serif;
+}
+
+input, textarea {
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    max-width: 1304px;
+    padding: 0 20px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+
+select {
+    display: none;
+}
+
+:root {
+    --mb: 17px;
+    --mbH2: 14px;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 600;
+    margin-bottom: var(--mbH2);
+}
+
+h5 {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: var(--mb);
+}
+
+label {
+    display: block;
+}
+
+.label {
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 18px;
+}
+
+input {
+    outline: none;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+}
+
+.input__gray {
+    border: 1px solid #D6D6D6;
+    box-sizing: border-box;
+    color: #999999;
+    padding-left: 16px;
+    height: 56px;
+    transition: 0.25s;
+}
+
+.input__gray::-webkit-input-placeholder {
+    color: #999999;
+}
+
+.input__gray::-moz-placeholder {
+    color: #999999;
+}
+
+.input__gray:-ms-input-placeholder {
+    color: #999999;
+}
+
+.input__gray::-ms-input-placeholder {
+    color: #999999;
+}
+
+.input__gray::placeholder {
+    color: #999999;
+}
+
+.input__gray:focus {
+    border: 1px solid #b6b6b6;
+}
+
+.input__white {
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    color: #fff;
+    padding-left: 16px;
+    height: 56px;
+    background: none;
+    transition: 0.25s;
+}
+
+.input__white::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.input__white::-moz-placeholder {
+    color: #fff;
+}
+
+.input__white:-ms-input-placeholder {
+    color: #fff;
+}
+
+.input__white::-ms-input-placeholder {
+    color: #fff;
+}
+
+.input__white::placeholder {
+    color: #fff;
+}
+
+.input__solo {
+    border: none;
+    border-bottom: 1px solid #7EBC30;
+    text-align: center;
+    font-weight: 700;
+    width: 193px;
+    color: #333;
+}
